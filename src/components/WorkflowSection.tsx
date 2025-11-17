@@ -49,12 +49,12 @@ const WorkflowSection = () => {
           {/* Connection line for desktop */}
           <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary via-accent to-secondary transform -translate-y-1/2 z-0"></div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10">
             {workflow.map((item, index) => (
               <Card key={index} className="bg-card hover:shadow-xl transition-all border-2 hover:border-primary/50">
                 <CardContent className="pt-6">
                   <div className="flex flex-col items-center text-center space-y-4">
-                    <div className="w-full h-48 rounded-lg overflow-hidden mb-2">
+                    <div className="w-full h-40 sm:h-44 md:h-48 rounded-lg overflow-hidden mb-2">
                       <img 
                         src={item.image}
                         alt={item.title}
@@ -66,11 +66,11 @@ const WorkflowSection = () => {
                       {item.step}
                     </div>
                     
-                    <h3 className="text-xl font-bold text-foreground">
+                    <h3 className="text-lg sm:text-xl font-bold text-foreground">
                       {item.title}
                     </h3>
                     
-                    <p className="text-muted-foreground">
+                    <p className="text-sm sm:text-base text-muted-foreground">
                       {item.description}
                     </p>
                   </div>

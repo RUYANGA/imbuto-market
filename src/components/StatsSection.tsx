@@ -31,7 +31,7 @@ const StatsSection = () => {
   return (
     <section className="py-16 bg-gradient-to-r from-primary via-leaf-green to-primary">
       <div className="container mx-auto px-4">
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <div 
               key={index}
@@ -40,10 +40,10 @@ const StatsSection = () => {
               <div className="mb-4 p-4 bg-primary-foreground/10 rounded-full backdrop-blur-sm">
                 <stat.icon className="h-8 w-8" />
               </div>
-              <div className="text-4xl lg:text-5xl font-bold mb-2">
+              <div className="text-2xl sm:text-3xl lg:text-5xl font-bold mb-2">
                 {stat.value}
               </div>
-              <div className="text-lg font-semibold mb-1">
+              <div className="text-base sm:text-lg font-semibold mb-1">
                 {stat.label}
               </div>
               <div className="text-sm opacity-90">

@@ -34,15 +34,15 @@ const ImpactSection = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
             Impinduka <span className="text-primary">Mukora</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
             Umushinga wacu uzana impinduka nziza ku bahinzi, amasoko n'ubukungu bw'igihugu
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {impacts.map((impact, index) => (
             <Card key={index} className="border-2 hover:border-primary/50 transition-all hover:shadow-lg">
               <CardContent className="pt-6">
@@ -65,10 +65,10 @@ const ImpactSection = () => {
         </div>
         
         <div className="bg-gradient-to-r from-primary to-leaf-green p-8 rounded-3xl text-center">
-          <h3 className="text-3xl font-bold text-primary-foreground mb-4">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-primary-foreground mb-4">
             Model Ishobora Gupimwa
           </h3>
-          <p className="text-xl text-primary-foreground/90 max-w-3xl mx-auto">
+          <p className="text-base sm:text-lg text-primary-foreground/90 max-w-3xl mx-auto">
             Ubushobozi bwo kugera ku masoko makuru (market-based sourcing model) 
             bushobora gupimwa mu gihugu hose kandi bugakomeza gutera imbere
           </p>

@@ -14,10 +14,10 @@ const SolutionSection = () => {
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-6">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-6">
               Igisubizo <span className="text-primary">Cyacu</span>
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-base sm:text-lg text-muted-foreground mb-8">
               Duhuje ikoranabuhanga n'ubumenyi bw'ubuhinzi kugira ngo tuzane ibisubizo 
               byuzuye ku bibazo byo mu masoko y'ubuhinzi mu Rwanda.
             </p>
@@ -37,27 +37,27 @@ const SolutionSection = () => {
           </div>
           
           <div className="relative">
-            <div className="bg-gradient-to-br from-primary/20 via-accent/10 to-secondary/20 p-8 rounded-3xl">
-              <div className="bg-card rounded-2xl p-8 shadow-xl">
-                <h3 className="text-2xl font-bold text-foreground mb-6">
+            <div className="bg-gradient-to-br from-primary/20 via-accent/10 to-secondary/20 p-6 sm:p-8 rounded-3xl">
+              <div className="bg-card rounded-2xl p-6 sm:p-8 shadow-xl">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-6">
                   Impinduka Zitezwe
                 </h3>
-                <div className="space-y-6">
+                <div className="space-y-4 sm:space-y-6">
                   <div className="flex items-center gap-4">
-                    <div className="text-4xl font-bold text-primary">80%</div>
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">80%</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">
                       Kugabanya igihombo cy'umusaruro
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="text-4xl font-bold text-accent">95%</div>
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent">95%</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">
                       Kugereza ku gihe
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
-                    <div className="text-4xl font-bold text-secondary">100+</div>
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">100+</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">
                       Abahinzi bahuye natwe
                     </div>
                   </div>

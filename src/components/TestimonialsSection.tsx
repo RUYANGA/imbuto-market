@@ -34,22 +34,22 @@ const TestimonialsSection = () => {
     <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
             Ibyo <span className="text-primary">Abantu Babivugaho</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
             Reba ibyo abakiriya bacu n'abahinzi babivuga ku bijyanye na serivisi zacu
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, index) => (
             <Card key={index} className="border-2 hover:border-primary/50 transition-all hover:shadow-lg relative overflow-hidden">
               <CardContent className="pt-6">
                 <Quote className="absolute top-4 right-4 h-12 w-12 text-primary/10" />
                 
                 <div className="flex items-center gap-4 mb-4">
-                  <Avatar className="h-14 w-14 bg-primary text-primary-foreground">
+                  <Avatar className="h-12 w-12 sm:h-14 sm:w-14 bg-primary text-primary-foreground">
                     <AvatarFallback className="text-lg font-semibold">
                       {testimonial.initials}
                     </AvatarFallback>

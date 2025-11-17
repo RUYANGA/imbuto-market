@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-2xl font-bold mb-4 text-primary">
               Agri Fresh Harvest
@@ -16,7 +16,7 @@ const Footer = () => {
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Serivisi</h4>
-            <ul className="space-y-2 text-background/80">
+            <ul className="space-y-2 text-background/80 text-sm sm:text-base">
               <li>Imboga Nziza</li>
               <li>Imbuto Z'Ubwiza</li>
               <li>Gutunganya no Gupakira</li>
@@ -26,7 +26,7 @@ const Footer = () => {
           
           <div>
             <h4 className="text-lg font-semibold mb-4">Abakiriya</h4>
-            <ul className="space-y-2 text-background/80">
+            <ul className="space-y-2 text-background/80 text-sm sm:text-base">
               <li>Hoteli</li>
               <li>Resitora</li>
               <li>Amasoko Manini</li>

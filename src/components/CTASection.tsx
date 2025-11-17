@@ -26,10 +26,10 @@ const CTASection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Contact Form */}
           <div>
-            <h2 className="text-4xl font-bold text-foreground mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
               Tuvugishe <span className="text-primary">Ubu</span>
             </h2>
-            <p className="text-xl text-muted-foreground mb-8">
+            <p className="text-base sm:text-lg text-muted-foreground mb-8">
               Ufite ikibazo cyangwa ushaka kumenya byinshi? Uzuza ifishi hepfo, tuzabahamagara.
             </p>
 

@@ -46,15 +46,15 @@ const Header = () => {
       }`}
     >
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-20">
+  <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
             <div className="p-2 bg-primary rounded-lg">
               <Leaf className="h-6 w-6 text-primary-foreground" />
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground">Agri Fresh</h1>
-              <p className="text-xs text-muted-foreground">Harvest Rwanda</p>
+              <h1 className="text-lg sm:text-xl font-bold text-foreground">Agri Fresh</h1>
+              <p className="text-[10px] sm:text-xs text-muted-foreground">Harvest Rwanda</p>
             </div>
           </div>
 
