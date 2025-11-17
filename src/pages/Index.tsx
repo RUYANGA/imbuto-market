@@ -13,7 +13,7 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-background overflow-x-hidden pt-16 md:pt-20 scroll-smooth" role="main" aria-label="Main content">
       <Header />
       <div id="hero">
         <Hero />
