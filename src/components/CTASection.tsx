@@ -21,11 +21,11 @@ const CTASection = () => {
   };
 
   return (
-    <section id="contact" className="py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
+    <section id="contact" className="py-12 sm:py-16 md:py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Contact Form */}
-          <div>
+          <div className="w-full max-w-lg mx-auto lg:mx-0">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
               Tangira Gukorana Natwe
             </h2>
@@ -40,7 +40,7 @@ const CTASection = () => {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   required
-                  className="h-12"
+                  className="h-12 text-base sm:text-lg"
                 />
               </div>
               <div>
@@ -50,7 +50,7 @@ const CTASection = () => {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   required
-                  className="h-12"
+                  className="h-12 text-base sm:text-lg"
                 />
               </div>
               <div>
@@ -60,7 +60,7 @@ const CTASection = () => {
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   required
-                  className="h-12"
+                  className="h-12 text-base sm:text-lg"
                 />
               </div>
               <div>
@@ -69,10 +69,10 @@ const CTASection = () => {
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                   required
-                  className="min-h-[120px]"
+                  className="min-h-[100px] sm:min-h-[120px] text-base sm:text-lg"
                 />
               </div>
-              <Button type="submit" size="lg" className="w-full">
+              <Button type="submit" size="lg" className="w-full text-base sm:text-lg py-3">
                 <Send className="mr-2 h-5 w-5" />
                 Ohereza Ubutumwa
               </Button>
@@ -80,7 +80,7 @@ const CTASection = () => {
           </div>
 
           {/* Contact Info Cards */}
-          <div className="space-y-6">
+          <div className="space-y-6 w-full max-w-lg mx-auto lg:mx-0">
             <Card className="border-2 hover:border-primary/50 transition-all hover:shadow-lg">
               <CardContent className="pt-6">
                 <div className="flex items-start gap-4">
