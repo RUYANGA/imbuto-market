@@ -129,15 +129,17 @@ const Header = () => {
 
                 <div className="flex flex-col gap-3 pt-4 border-t">
                   <a 
-                    href="tel:+250788000000" 
+                    href="tel:+250789988184" 
                     className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors p-2"
                   >
                     <Phone className="h-4 w-4" />
-                    <span className="text-sm font-medium">+250 788 000 000</span>
+                    <span className="text-sm font-medium">+250 789 988 184</span>
                   </a>
-                  <Button className="w-full">
-                    Tuvugishe
-                  </Button>
+                  <a href="tel:+250789988184" onClick={() => setMenuOpen(false)}>
+                    <Button className="w-full">
+                      Tuvugishe
+                    </Button>
+                  </a>
                 </div>
               </div>
             </SheetContent>
