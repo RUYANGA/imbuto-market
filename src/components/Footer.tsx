@@ -1,6 +1,7 @@
 import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin } from "lucide-react";
 
 const Footer = () => {
+  const year = new Date().getFullYear();
   return (
     <footer className="bg-foreground text-background py-12">
       <div className="container mx-auto px-4">
@@ -55,7 +56,7 @@ const Footer = () => {
         
         <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-background/80 mb-4 md:mb-0">
-            © 2024 Agri Fresh Harvest Rwanda Ltd. Uburenganzira bwose burabitswe.
+            © {year} Agri Fresh Harvest Rwanda Ltd. Uburenganzira bwose burabitswe.
           </p>
           
           <div className="flex gap-4">
