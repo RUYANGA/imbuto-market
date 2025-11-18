@@ -9,9 +9,6 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div className="inline-block mt-[-8px]">
-              <span className="text-sm font-semibold text-primary bg-primary/10 px-4 py-2 rounded-full">
-                🌿 MENYA BYINSHI – AGRI FRESH HARVEST RWANDA LTD
-              </span>
             </div>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
               Agri Fresh Harvest Rwanda Ltd
