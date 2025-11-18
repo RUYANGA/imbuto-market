@@ -104,18 +104,21 @@ const CTASection = () => {
 
             <Card className="border-2 hover:border-primary/50 transition-all hover:shadow-lg">
               <CardContent className="pt-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-accent/10 rounded-lg">
+                <div className="flex flex-col sm:flex-row items-start gap-4">
+                  <div className="p-3 bg-accent/10 rounded-lg flex-shrink-0">
                     <Mail className="h-6 w-6 text-accent" />
                   </div>
-                  <div>
+                  <div className="w-full">
                     <h3 className="text-xl font-semibold text-foreground mb-2">
                       Imeli
                     </h3>
                     <p className="text-muted-foreground mb-2">
                       Twoherereze imeli, tuzagusubiza vuba
                     </p>
-                    <a href="mailto:agrifreshharvestrwandaltd@gmail.com" className="text-accent font-medium hover:underline">
+                    <a 
+                      href="mailto:agrifreshharvestrwandaltd@gmail.com" 
+                      className="text-accent font-medium hover:underline break-all"
+                    >
                       agrifreshharvestrwandaltd@gmail.com
                     </a>
                   </div>
