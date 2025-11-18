@@ -5,6 +5,7 @@ import { Menu, X, Leaf, Phone } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
   const location = useLocation();
   const navigate = useNavigate();
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,6 +34,7 @@ const Header = () => {
         navigate("/", { state: { scrollTo: id } });
       }
     }
+    setMenuOpen(false); // Close mobile menu after navigation
   };
 
   const navLinks = [
@@ -93,9 +95,9 @@ const Header = () => {
           </div>
 
           {/* Mobile Menu */}
-          <Sheet>
+          <Sheet open={menuOpen} onOpenChange={setMenuOpen}>
             <SheetTrigger asChild className="lg:hidden">
-              <Button variant="ghost" size="icon">
+              <Button variant="ghost" size="icon" onClick={() => setMenuOpen(true)}>
                 <Menu className="h-6 w-6" />
               </Button>
             </SheetTrigger>
