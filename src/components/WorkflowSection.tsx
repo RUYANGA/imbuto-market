@@ -7,26 +7,26 @@ import { Card, CardContent } from "@/components/ui/card";
 const workflow = [
   {
     step: "1",
-    title: "Gukusanya Ibikenewe n'Isoko",
-    description: "Twohereza abakozi bacu kumasoko manini (hoteli, resitora, supermarkets). Turakira urutonde rw'ibyo bakeneye buri cyumweru.",
+    title: "Iyandikishe (Registration)",
+    description: "Uzuza ifishi y’iyandikisha kuri website, cyangwa utwoherereze ubutumwa kuri WhatsApp/phone. Tuguhamagarira kugenzura amakuru yawe no kukumenyesha ibisabwa.",
     image: marketIcon
   },
   {
     step: "2",
-    title: "Kujya ku Bahinzi",
-    description: "Tugana abahinzi bacu (amakoperative n'abahinzi ku giti cyabo). Turakusanya umusaruro uhuye n'ibyo isoko rikeneye. Turapima ubuziranenge.",
+    title: "Tumenyeshe ibyo ukora (Profile Setup)",
+    description: "Niba uri umuhinzi → utubwira ibyo uhinga, ingano n’igihe umusaruro uboneka. Niba uri umuguzi / isoko → utubwira ibyo ukeneye, ingano, n’ubwinshi bwa buri cyumweru.",
     image: farmersIcon
   },
   {
     step: "3",
-    title: "Gutunganya no Gupakira",
-    description: "Dutondeka, dutandukanya umusaruro twagize. Dushiramo ipaketi yacu itangira kubimara.",
+    title: "Kugenzura Ubuziranenge (Quality Check)",
+    description: "Abakozi bacu basura ahantu umusaruro ukomoka, bareba ubuziranenge n’uburyo bwo gupakira, hanyuma tugushyira mu cyiciro cy’abafatanyabikorwa bemewe.",
     image: packagingIcon
   },
   {
     step: "4",
-    title: "Gutwarira Amasoko Manini",
-    description: "Turawutwara ku masoko makuru aho twabonye ibikenewe, tukawushyikiriza ku gihe. Umusaruro uzi neza aho ujya.",
+    title: "Gutangira ubufatanye (Activation)",
+    description: "Turagushyira muri sistema yacu y’abatanga umusaruro cyangwa tugashyiraho serivisi yo kukugezaho ibicuruzwa ku gihe.",
     image: deliveryIcon
   }
 ];
@@ -36,12 +36,11 @@ const WorkflowSection = () => {
     <section className="py-20 bg-gradient-to-b from-muted/30 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
-            Uko <span className="text-primary">Bikora</span>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
+            Uko Watangira Gukorana Natwe
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Inzira yacu yizewe yo kuva ku isoko rigeze ku muhinzi hanyuma bigasubira ku isoko 
-            ari umusaruro utunganye
+          <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
+            Agri Fresh Harvest Rwanda Ltd yakiriye neza buri wese wifuza gukorana natwe yaba ari umuhinzi, umucuruzi cyangwa isoko rikeneye ibiribwa bihoraho. Uburyo dutangiraho gukorana buroroshye kandi bwihuse.
           </p>
         </div>
         

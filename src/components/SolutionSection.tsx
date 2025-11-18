@@ -1,11 +1,11 @@
 import { CheckCircle } from "lucide-react";
 
 const solutions = [
-  "Tujya ku masoko makuru — supermarkets, hotels, restaurants, institutions — tukabona ibyo bakeneye.",
-  "Tugashaka umusaruro uhwanye n'iryari isoko rikeneye, tugawuteranya kuri farmers groups.",
-  "Dutunganya (sorting & grading) imboga n'imbuto, tukabipakira neza bijyanye n'amabwiriza y'ubuziranenge.",
-  "Tukabigeza ku isoko ku gihe (same-day or next-day delivery).",
-  "Tugabanya igihombo n'imyanda iboneka mu masoko."
+  "Dukora ubushakashatsi ku masoko (market demand).",
+  "Dukorana n’abahinzi bo mu byiciro bitandukanye kugira ngo tubabonere isoko.",
+  "Dukusanya umusaruro uhuye n’ibyo isoko rikeneye.",
+  "Dutondeka, dutandukanya tukabipakira mu buryo bunogeye isoko.",
+  "Tuzigeza ku masoko, supermarkets, hoteli, resitora n’ibindi bigo bikenera imboga n’imbuto mu buryo buhamye."
 ];
 
 const SolutionSection = () => {
@@ -15,11 +15,10 @@ const SolutionSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Igisubizo <span className="text-primary">Cyacu</span>
+              Icyo Dukora
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground mb-8">
-              Duhuje ikoranabuhanga n'ubumenyi bw'ubuhinzi kugira ngo tuzane ibisubizo 
-              byuzuye ku bibazo byo mu masoko y'ubuhinzi mu Rwanda.
+              Dukora ibikorwa byose by’ingenzi mu guhuza abahinzi n’isoko: ubushakashatsi, gukusanya umusaruro, gutunganya no kugeza ku masoko akomeye.
             </p>
             
             <div className="space-y-4">
@@ -40,26 +39,28 @@ const SolutionSection = () => {
             <div className="bg-gradient-to-br from-primary/20 via-accent/10 to-secondary/20 p-6 sm:p-8 rounded-3xl">
               <div className="bg-card rounded-2xl p-6 sm:p-8 shadow-xl">
                 <h3 className="text-lg sm:text-xl md:text-2xl font-bold text-foreground mb-6">
-                  Impinduka Zitezwe
+                  Impamvu Dutandukanye
                 </h3>
                 <div className="space-y-4 sm:space-y-6">
-                  <div className="flex items-center gap-4">
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary">80%</div>
-                    <div className="text-sm sm:text-base text-muted-foreground">
-                      Kugabanya igihombo cy'umusaruro
-                    </div>
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold">✔️</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">Turabanza kumenya ibyo isoko rikeneye mbere yo gushaka umusaruro.</div>
                   </div>
-                  <div className="flex items-center gap-4">
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-accent">95%</div>
-                    <div className="text-sm sm:text-base text-muted-foreground">
-                      Kugereza ku gihe
-                    </div>
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold">✔️</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">Dufasha abahinzi kubona isoko ridahindagurika kandi rihoraho.</div>
                   </div>
-                  <div className="flex items-center gap-4">
-                    <div className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary">100+</div>
-                    <div className="text-sm sm:text-base text-muted-foreground">
-                      Abahinzi bahuye natwe
-                    </div>
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold">✔️</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">Twita ku bwiza bw’umusaruro (quality control) mbere yo kuwushyikiriza abaguzi.</div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold">✔️</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">Dutanga serivisi za same-day delivery mu gihe gikenewemo.</div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="text-primary font-bold">✔️</div>
+                    <div className="text-sm sm:text-base text-muted-foreground">Dukorana mu mucyo, twubaka icyizere hagati y’abahinzi n’abaguzi.</div>
                   </div>
                 </div>
               </div>

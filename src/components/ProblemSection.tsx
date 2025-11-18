@@ -4,23 +4,23 @@ import { Card, CardContent } from "@/components/ui/card";
 const problems = [
   {
     icon: AlertCircle,
-    title: "Kubura Supply Ihamye",
-    description: "Abaguzi bakomeye (hotels, supermarkets, restaurants) babura supply ihamye y'imboga n'imbuto."
+    title: "Igihombo ku Musaruro",
+    description: "Kugabanya igihombo gituruka ku musaruro wangirika ku masoko."
   },
   {
     icon: TrendingDown,
-    title: "Kubura Isoko",
-    description: "Abahinzi bakenera isoko rihoraho ariko bakaribura, bikabatera igihombo."
+    title: "Isoko Ridahindagurika",
+    description: "Gutuma abahinzi babona amafaranga ahamye kandi batarambirije ku isoko ryo ku iseta."
   },
   {
     icon: Package,
-    title: "Umusaruro Wangirika",
-    description: "Umusaruro mwinshi wangirika kubera kubura uko ugezwa ku isoko ku gihe."
+    title: "Guhaza Amasoko Akomeye",
+    description: "Guhaza amasoko akomeye mu buryo buhoraho."
   },
   {
     icon: DollarSign,
-    title: "Ibiciro Bitahindagurika",
-    description: "Ibiciro ku masoko ntibihamye, bityo abakiriya bakabura ubwizigame."
+    title: "Ubuhinzi Burengera Ibidukikije",
+    description: "Gukoresha ubuhinzi bunoze, butangiza ibidukikije."
   }
 ];
 
@@ -30,10 +30,10 @@ const ProblemSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Ikibazo Dukemura
+            Impinduka Dushaka Kuzana
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-2xl mx-auto">
-            Hatagira ibihombo mu masoko y'ubuhinzi, dukeneye ibisubizo byihuse kandi bifatika
+            Dufasha abahinzi n’abaguzi kubona inyungu mu bucuruzi bw’ibiribwa bitunganye, tugabanya igihombo, tunateza imbere ubuhinzi burambye.
           </p>
         </div>
         

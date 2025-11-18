@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Leaf, Phone } from "lucide-react";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Header = () => {
+  const location = useLocation();
+  const navigate = useNavigate();
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -24,6 +27,11 @@ const Header = () => {
         top: offsetPosition,
         behavior: "smooth"
       });
+    } else {
+      // If not on homepage, navigate to homepage and scroll after navigation
+      if (location.pathname !== "/") {
+        navigate("/", { state: { scrollTo: id } });
+      }
     }
   };
 
@@ -48,7 +56,7 @@ const Header = () => {
       <div className="container mx-auto px-4">
   <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
-          <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}>
+          <div className="flex items-center gap-2 cursor-pointer" onClick={() => scrollToSection("hero")}> 
             <div className="p-2 bg-primary rounded-lg">
               <Leaf className="h-6 w-6 text-primary-foreground" />
             </div>

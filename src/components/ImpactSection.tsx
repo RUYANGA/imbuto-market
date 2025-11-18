@@ -35,7 +35,7 @@ const ImpactSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Impinduka <span className="text-primary">Mukora</span>
+            Impinduka <span className="text-primary">Dukora</span>
           </h2>
           <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
             Umushinga wacu uzana impinduka nziza ku bahinzi, amasoko n'ubukungu bw'igihugu

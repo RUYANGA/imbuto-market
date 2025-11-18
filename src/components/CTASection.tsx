@@ -27,10 +27,10 @@ const CTASection = () => {
           {/* Contact Form */}
           <div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Tuvugishe <span className="text-primary">Ubu</span>
+              Tangira Gukorana Natwe
             </h2>
             <p className="text-base sm:text-lg text-muted-foreground mb-8">
-              Ufite ikibazo cyangwa ushaka kumenya byinshi? Uzuza ifishi hepfo, tuzabahamagara.
+              Uzuza ifishi y’iyandikisha cyangwa utwoherereze ubutumwa kuri WhatsApp/telephone. Tuguhamagarira kugenzura amakuru yawe no kukumenyesha ibisabwa. Turagutangira ubufatanye bwihuse kandi bwizewe.
             </p>
 
             <form onSubmit={handleSubmit} className="space-y-4">
@@ -137,7 +137,7 @@ const CTASection = () => {
                       Tuvugishe kuri WhatsApp
                     </p>
                     <a 
-                      href="https://wa.me/0789988184" 
+                      href="https://wa.me/+250789988184" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-secondary font-medium hover:underline"

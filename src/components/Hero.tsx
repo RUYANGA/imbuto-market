@@ -10,27 +10,31 @@ const Hero = () => {
           <div className="space-y-8">
             <div className="inline-block">
               <span className="text-sm font-semibold text-primary bg-primary/10 px-4 py-2 rounded-full">
-                Agri Fresh Harvest Rwanda Ltd
+                🌿 MENYA BYINSHI – AGRI FRESH HARVEST RWANDA LTD
               </span>
             </div>
-            
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-foreground leading-tight">
-              Duhuza Abaguzi n'Abahinzi
-              <span className="text-primary"> ku Buryo Bwizewe</span>
+              Agri Fresh Harvest Rwanda Ltd
             </h1>
-            
             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-              Tuzana imbuto n'imboga nziza ku masoko manini - hoteli, resitora, supermarkets - 
-              tukabigereza ku gihe kandi tukabifata neza.
+              Agri Fresh Harvest Rwanda Ltd ni kompanyi nyarwanda yihaye intego yo kuvugurura uburyo imboga n’imbuto zigurishwa, zikusanywa kandi zigezwa ku isoko. Dukorera mu buryo buhuza abahinzi n’amasoko akomeye, tukabafasha kubona umusaruro ugezweho, ufite ubuziranenge kandi uboneka ku gihe.
             </p>
-            
+            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+              Dushingiye ku ikoranabuhanga, dukusanya ibyo isoko rikeneye, tukabashakira umusaruro ubihuye, tukawutunganya (sorting & packaging), hanyuma tukawugeza ku masoko manini n’abaguzi b’ingeri zitandukanye.
+            </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button size="lg" className="w-full sm:w-auto text-lg shadow-md hover:shadow-lg transition-all">
-                Tangira Gukora Natwe
+                Tangira Gukorana Natwe
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
-              <Button size="lg" variant="outline" className="w-full sm:w-auto text-lg">
-                Menya Byinshi
+              {/* Use React Router navigation for SPA routing */}
+              <Button
+                size="lg"
+                variant="outline"
+                className="w-full sm:w-auto text-lg"
+                asChild
+              >
+                <a href="/menya-byinshi">Menya Byinshi</a>
               </Button>
             </div>
           </div>
