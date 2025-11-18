@@ -4,11 +4,11 @@ import heroImage from "@/assets/hero-produce.jpg";
 
 const Hero = () => {
   return (
-  <section className="relative min-h-[60vh] md:min-h-screen flex items-center bg-gradient-to-b from-light-green to-background pt-20">
-      <div className="container mx-auto px-4 py-16">
+  <section className="relative min-h-[60vh] md:min-h-screen flex items-center bg-gradient-to-b from-light-green to-background pt-0">
+    <div className="container mx-auto px-4 py-8">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <div className="inline-block">
+            <div className="inline-block mt-[-8px]">
               <span className="text-sm font-semibold text-primary bg-primary/10 px-4 py-2 rounded-full">
                 🌿 MENYA BYINSHI – AGRI FRESH HARVEST RWANDA LTD
               </span>

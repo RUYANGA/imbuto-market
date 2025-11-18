@@ -42,7 +42,7 @@ const Index = () => {
     }
   }, [location]);
   return (
-    <main className="min-h-screen bg-background overflow-x-hidden pt-16 md:pt-20 scroll-smooth" role="main" aria-label="Main content">
+    <main className="min-h-screen bg-background overflow-x-hidden pt-16 md:pt-0 scroll-smooth" role="main" aria-label="Main content">
       <Header />
       <div id="hero">
         <Hero />
