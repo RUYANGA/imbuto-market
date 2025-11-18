@@ -84,14 +84,15 @@ const Header = () => {
 
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-4">
-            <a href="tel:+250788000000" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
+            <a href="tel:+250789988184" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors">
               <Phone className="h-4 w-4" />
-              <span className="text-sm font-medium">+250 789 988 184
-</span>
+              <span className="text-sm font-medium">+250 789 988 184</span>
             </a>
-            <Button className="shadow-md">
-              Tuvugishe
-            </Button>
+            <a href="tel:+250789988184">
+              <Button className="shadow-md">
+                Tuvugishe
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu */}
